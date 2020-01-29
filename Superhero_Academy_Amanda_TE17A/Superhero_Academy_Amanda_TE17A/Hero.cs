@@ -8,12 +8,16 @@ namespace Superhero_Academy_Amanda_TE17A
 {
     class Hero //Arvklass som innehåller diverse attribut som alla hjältetyper ska ha.
     {
-        protected int speed = 0;
+        public string name;
 
-        protected int strength = 0;
+        public string gender;
 
-        protected int heroism = 0;
+        protected int speed;
+        
+        protected int strength;
 
-        protected int kindness = 0;
+        protected int heroism;
+
+        protected int kindness;
     }
 }
