@@ -43,8 +43,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Hero.cs" />
+    <Compile Include="Plantmancer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Speedster.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

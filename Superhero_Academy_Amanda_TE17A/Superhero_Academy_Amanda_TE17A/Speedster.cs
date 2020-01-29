@@ -12,7 +12,7 @@ namespace Superhero_Academy_Amanda_TE17A
 
         int annoyance = 5;
 
-        public void Stats()
+        public void Stats() //en metod för att ändra statsen så de passar för hjältetypen
         {
             speed = 5;
             strength = 2;
@@ -20,7 +20,7 @@ namespace Superhero_Academy_Amanda_TE17A
             heroism = 2;
         }
 
-        public override void Get_Stats()
+        public override void Get_Stats() //en override-metod för att lägga till extra-klasserna som Speedster har.
         {
             base.Get_Stats();
 

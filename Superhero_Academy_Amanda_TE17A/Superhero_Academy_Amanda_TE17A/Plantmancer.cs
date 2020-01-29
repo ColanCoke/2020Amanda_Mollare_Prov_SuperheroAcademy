@@ -9,11 +9,10 @@ namespace Superhero_Academy_Amanda_TE17A
     public class Plantmancer : Hero
     {
 
-        int greenThumb;
+        int greenThumb = 2;
 
-        int manipulative;
+        int manipulative = 4;
 
-        int sharpness;
 
         public void Stats()
         {
@@ -21,6 +20,14 @@ namespace Superhero_Academy_Amanda_TE17A
             strength = 1;
             charisma = 5;
             heroism = 3;
+        }
+
+        public override void Get_Stats()
+        {
+            base.Get_Stats();
+
+            Console.WriteLine("Green Thumb: " + greenThumb + "/5");
+            Console.WriteLine("Manipulation: " + manipulative + "/5");
         }
 
     }
