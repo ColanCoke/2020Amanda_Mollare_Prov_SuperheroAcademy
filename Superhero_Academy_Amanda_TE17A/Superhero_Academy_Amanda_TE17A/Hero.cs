@@ -12,7 +12,7 @@ namespace Superhero_Academy_Amanda_TE17A
 
         public string gender;
 
-        protected int speed;
+        public int speed;
         
         protected int strength;
 
