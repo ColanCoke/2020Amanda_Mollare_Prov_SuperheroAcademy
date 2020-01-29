@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Superhero_Academy_Amanda_TE17A
 {
-    class Hero //Arvklass som innehåller diverse attribut som alla hjältetyper ska ha.
+    public class Hero //Arvklass som innehåller diverse attribut som alla hjältetyper ska ha.
     {
         public string name;
 
@@ -18,6 +18,14 @@ namespace Superhero_Academy_Amanda_TE17A
 
         protected int heroism;
 
-        protected int kindness;
+        protected int charisma;
+
+        public void Get_Stats()
+        {
+            Console.WriteLine("Speed: " + speed + "/5");
+            Console.WriteLine("Strength: " + strength + "/5");
+            Console.WriteLine("Charisma: " + charisma + "/5");
+            Console.WriteLine("Heroism: " + heroism + "/5");
+        }
     }
 }
